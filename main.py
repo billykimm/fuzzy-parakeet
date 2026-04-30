@@ -1,6 +1,10 @@
-# ==========================================
-# 👑 PERMISSIONS & POWER LEVELS
-# ==========================================
+import os
+
+# Get the token from the GitHub Environment Variable
+BOT_TOKEN = os.getenv('DISCORD_TOKEN')
+
+# Then at the very end
+bot.run(BOT_TOKEN)
 TRAINEE_MOD_ROLE_ID = 1457361860574580757
 OWNER_USER_ID = 1443691889613344850
 
